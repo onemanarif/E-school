@@ -38,11 +38,17 @@
  }
  .card{
     background: #FFFFFF;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
  }
+ .card:hover{
+    box-shadow: 5px 5px 10px gray;
+ }
+ .small-card:hover{
+    box-shadow: 5px 5px 5px 10px lightgray;
+ }
 section{
-    margin-top: auto;
+    
     margin-bottom: 50px;
 
 }
@@ -53,6 +59,19 @@ section{
 p{
     font-size: 16;
 }
-ul{
-    touch-action: none;
+ul li{
+    list-style: none;
+
+}
+.last-sec{
+    background-color: #282531;
+    height: 200px;
+}
+.text-color{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
 }
